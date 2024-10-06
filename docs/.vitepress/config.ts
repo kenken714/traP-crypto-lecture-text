@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Crypto&暗号講習会",
+  title: "Crypto講習会",
   description: "Crypto&現代暗号講習会のテキスト",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
