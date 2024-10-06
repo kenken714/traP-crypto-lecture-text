@@ -9,6 +9,7 @@ hero:
 features:
   - title: はじめに
     details: 講習会の概要
+    link: /chapter0/index.md
   - title: 第一章
     details: 暗号についての概要と環境構築
   - title: 第二章

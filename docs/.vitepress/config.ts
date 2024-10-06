@@ -5,12 +5,6 @@ export default defineConfig({
   base: '/traP-crypto-lecture-text/',
   title: "Crypto講習会",
   description: "Crypto&現代暗号講習会のテキスト",
-  markdown: {
-    theme: {
-      light: 'github-dark',
-      dark: 'github-dark'
-    }
-  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
