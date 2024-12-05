@@ -7,11 +7,9 @@ hero:
   tagline: 23B @kenken
 
 features:
-  - title: はじめに
-    details: 講習会の概要
-    link: /chapter0/index.md
   - title: 第一章
     details: 暗号についての概要と環境構築
+    link: /chapter1/index.md
   - title: 第二章
     details: 共通鍵暗号・認証
   - title: 第三章

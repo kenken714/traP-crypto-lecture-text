@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { chapter1SidebarItems } from './sidebarConfigs/chapters/chapter1/chapter1'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,15 +12,9 @@ export default defineConfig({
       { text: 'Home', link: '/' },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/chapter1/': chapter1SidebarItems
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/kenken714/traP-crypto-lecture-text' }
