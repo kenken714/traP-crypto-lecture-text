@@ -15,7 +15,7 @@ features:
   - title: 第三章
     details: ハッシュ
   - title: 第四章
-    details: 整数論
+    details: 初等整数論と代数の基礎
   - title: 第五章
     details: 公開鍵暗号(1) - RSA暗号
   - title: 第六章

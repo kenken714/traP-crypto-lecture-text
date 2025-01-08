@@ -17,33 +17,33 @@ Windows 上で Linux を動作させるために、Windows Subsystem for Linux (
 この講習会で用いるプログラミング言語 Python 3 と、パッケージ管理ツールである pip をインストールします。
 
 ```bash
-sudo apt update
-sudo apt-get install python3
-sudo apt-get install python3-pip
+$ sudo apt update
+$ sudo apt-get install python3
+$ sudo apt-get install python3-pip
 ```
 
 ### PyCryptodome のインストール
 
-Python で暗号関連の処理を行うためのライブラリである PyCryptodome をインストールします。
+Crypto で頻繁に用いられる暗号ライブラリ PyCryptodome をインストールします。
 
 ```bash
-pip3 install pycryptodome
+$ pip3 install pycryptodome
 ```
 
 ### SageMath のインストール
 
-数学的な処理を行うためのソフトウェアである SageMath をインストールします。
+Python で数学処理をするアプリケーションである SageMath をインストールします。
 
 ```bash
-sudo apt-get install sagemath
+$ sudo apt-get install sagemath
 ```
 
 ### OpenSSL のインストール
 
-暗号関連の処理を行うためのライブラリである OpenSSL をインストールします。
+暗号アルゴリズムの様々な実装を提供する OpenSSL をインストールします。
 
 ```bash
-sudo apt-get install openssl
+$ sudo apt-get install openssl
 ```
 
 ## その他サイト
@@ -51,8 +51,8 @@ sudo apt-get install openssl
 環境構築は以上で終わりですが、Crypto の問題を解く時によく使うサイトを紹介します。本講習会中にも使うことがあります。
 
 - [CyberChef](https://gchq.github.io/CyberChef/)
-  - 暗号解読やデータ変換を行うためのツールです。様々な処理を組み合わせて、問題を解いていきます。
+  - ハッシュや文字コードの変換などの操作、暗号の解読などができるサイトです。
 - [dcode.fr](https://www.dcode.fr/)
-  - 暗号解読や数学問題の解法を提供しています。問題の解き方を知りたいときに参考にしてください。
+  - CyberChef と同様に様々な操作ができるサイトです。とくに古典暗号の解読に便利です。
 - [factorDB](http://factordb.com/)
-  - 素因数分解を行うためのサイトです。RSA 暗号の解読などに使います。
+  - あらゆる整数の素因数分解が登録されているサイトです。有名な数の場合は、これで一発で素因数分解が分かることがあります。
